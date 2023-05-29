@@ -1,0 +1,37 @@
+.title{
+    margin-top: 40px;
+    text-align: center;
+}
+.prevAndnextButtons{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    margin-top: 30px;
+}
+.prev{
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+}
+.next{
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 60px;
+    align-items: center;
+}
+
+.singlelPhoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    height: 200px;
+    width: 300px;
+}
